@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aoc2023python"
+version = "0.1.0"
+description = "Advent of Code 2023 solutions, in Python"
+authors = ["Sonia Mitchell <soniamitchell@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.3"
+pandas = "^2.1.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+run_script = 'aoc2023python.examples.script:main'
